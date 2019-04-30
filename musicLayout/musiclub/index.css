@@ -3,15 +3,24 @@
   box-sizing: border-box;
 }
 .menubar{
-    border: 1px solid red;
+    border: 2px solid transparent;
     padding: 1px;
     background-color: aqua;
+    margin-bottom: 7px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.12), 4px 4px 2px rgba(0,0,0,0.24);
+
+
 }
 
 .header {
-  border: 1px solid red;
+  border: 2px solid transparent;
   padding: 15px;
   background-color: aquamarine;
+  margin-bottom: 7px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.12), 4px 4px 2px rgba(0,0,0,0.24);
+  
+
+
 }
 
 .row::after {
@@ -22,14 +31,18 @@
 
 [class*="col-"] {
   float: left;
-  border: 1px solid red;
+  border: 2px solid transparent;
   position:relative;
+  margin-bottom: 7px;
+
 }
 
 
 .footer{
-    border: 1px solid red;
+    border: 2px solid transparent;
     padding: 15px; 
+    margin-bottom: 7px;
+
     
 }
 
@@ -40,19 +53,22 @@
 position: relative;
 background-color: indianred;
 
+
 }
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
+.col-9 {width: 75%;
+  margin-right: 7px;
+}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.12), 4px 4px 2px rgba(0,0,0,0.24);
+}
 
-@media screen and(max-width:700px){
-  .col-9,.col-3{
-    width: 100%;
-  }
+#id01{
+  margin-right: 7px;
 }
