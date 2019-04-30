@@ -1,0 +1,99 @@
+/*#pre{
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ display: none;  
+ position: absolute;
+ left:75%;
+ border: 2px solid black;
+ width: 24.5%;
+ height: 900px;
+ position: absolute;
+ top:125px;
+}*/
+#block_0{
+    border:2px solid black;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top:3px;
+}
+#block{
+    border:2px solid black;
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top:38px;
+}
+#block_2{
+    border:2px solid black;
+    width: 73.7%;
+    height: 250px;
+    position: absolute;
+    top:171px;
+}
+#block_3{
+    border:2px solid black;
+    width: 73.7%;
+    height: 125px;
+    position: absolute;
+    top:430px;
+}
+#block_4{
+    /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    display: none;  */
+    position: absolute;
+    left:75%;
+    border: 2px solid black;
+    width: 25.55%;
+    height: 652px;
+    position: absolute;
+    top:171px;
+   }
+#block_5{
+    border:2px solid black;
+    width: 73.7%;
+    height: 125px;
+    position: absolute;
+    top:564px;
+}
+#block_6{
+    border:2px solid black;
+    width: 73.7%;
+    height: 125px;
+    position: absolute;
+    top:698px;
+}
+#block_7{
+    border:2px solid black;
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top:832px;
+}
+#block_8{
+    border:2px solid black;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top:967px;
+}  
+#image{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top:9px;
+    left:9px;
+    
+}
+#audio{
+    width: 89%;
+    position: absolute;
+    left: 132px;
+    top:103px;
+    height: 15px;
+}
+#song{
+    position: absolute;
+    left:132px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
